@@ -58,13 +58,11 @@ int main()
     // terminating the process before other threads have time to run
     sleep(1);
     
-    // This message is printed by the main thread
-    // after the 1-second delay.
+    // This message is printed by the main thread after the 1-second delay.
     printf("\nback in main thread \n");
 
-    // When main() exits, the process terminates,
-    // and all threads are automatically killed.
-    // In real applications, you'd use pthread_join() or pthread_detach()
-    // to cleanly manage thread lifetimes.
+    // When main() exits, the process terminates, and all threads are automatically killed.
+    // In real applications, you'd use pthread_join() or pthread_detach() to cleanly manage thread lifetimes.
     return 0;
+
 }
