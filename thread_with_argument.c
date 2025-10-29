@@ -35,5 +35,8 @@ int main()
     // Wait for the thread to finish
     pthread_join(tid, NULL);
 
+    printf("Back in main thread \n");
+
     return 0;
+
 }
