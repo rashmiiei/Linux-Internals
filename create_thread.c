@@ -12,7 +12,6 @@ void *thread_function (void *arg)
     printf("Thread is executing \n"); 	// Print message to show thread is running
     return NULL; 						// Thread returns NULL (required for pthreads)
 }
-
 int main() 
 {
     pthread_t tid; // Declare a thread ID variable
@@ -30,4 +29,5 @@ int main()
     }
     sleep(1); // Pause main thread to ensure new thread has time to execute
     printf("back in main thread \n"); // Message from main thread
+
 }
