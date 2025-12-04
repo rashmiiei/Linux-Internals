@@ -33,6 +33,7 @@ void *print_O (void *arg)
     }
     return NULL;
 }
+
 int main() 
 {
     pthread_t tid1, tid2; // Thread ID variables for both threads
@@ -65,3 +66,4 @@ int main()
     return 0;
 
 }
+
