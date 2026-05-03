@@ -10,7 +10,7 @@ int main()
 	char msg[20];
 
     printf("enter the sring : ");
-    scanf("%[^\n]", msg);
+    scanf("%19[^\n]", msg);
 	char buffer[20];
 	
 	pipe(fd);
