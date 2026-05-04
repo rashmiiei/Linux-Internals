@@ -4,7 +4,7 @@
 
 int main()
 {
-	int fd[1], fd[2]; 
+	int fd1[2], fd2[2]; 
 	pid_t pid;
 	char msg[2], buffer[20], reply[20];
 	
