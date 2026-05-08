@@ -11,8 +11,9 @@ int main()
     // 2. argv[0]: "ls" (program name)
     // 3. "-l": option for long listing format
     // 4. "-h": option for human-readable file sizes
-    // 5. NULL: marks the end of the argument list
-    execl("/bin/ls", "ls", "-l","-h", NULL);
+    // 5. "--color=auto": enable colored output
+    // 6. NULL: marks the end of the argument list
+    execl("/bin/ls", "ls", "-l", "-h", "--color=auto", NULL);
 
     // If exec() succeeds, this line will never execute
     // because the current process is replaced by "ls"
