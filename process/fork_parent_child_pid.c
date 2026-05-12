@@ -15,7 +15,6 @@ int main()
     //   >0 (child PID) in the parent process
     int pid = fork();
 
-
     // Use switch-case to handle the three possible outcomes of fork()
     switch(pid)
     {
