@@ -38,5 +38,4 @@ int main()
     printf("Back in main thread \n");
 
     return 0;
-
 }
