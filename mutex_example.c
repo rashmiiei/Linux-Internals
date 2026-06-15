@@ -20,7 +20,7 @@ void *thread_function (void *arg)
         // This ensures only one thread enters this section at a time.
         pthread_mutex_lock(&lock);
         
-        // ====== START OF CRITICAL SECTION ======
+        // ======== START OF CRITICAL SECTION ========
         // Only one thread can execute these lines at once.
         count=0;
         count += 5;
